@@ -9,7 +9,7 @@ def add_todo():
 
 todos = functions.get_todos()
 st.title("Aplicatie web de test")
-st.subheader("Asta este aplicatia web pt To-do.")
+st.subheader("Asta este aplicatia web pt To-do. Update.")
 st.write("Aplicatia este facuta in lectia de pyton nr 19 !")
 
 for index, todo in enumerate(todos):
