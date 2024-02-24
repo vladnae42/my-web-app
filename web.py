@@ -8,9 +8,9 @@ def add_todo():
 
 
 todos = functions.get_todos()
-st.title("My Todo App")
+st.title("Aplicatie web de test")
 st.subheader("Asta este aplicatia web pt To-do.")
-st.write("Aplicatia este facuta in lectia de pyton nr 19 !!!")
+st.write("Aplicatia este facuta in lectia de pyton nr 19 !")
 
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=index)
